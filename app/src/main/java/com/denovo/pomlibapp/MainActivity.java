@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtLogo = findViewById(R.id.txtLogo);
-        txtLogo.setText("SDK page starts");
+        //txtLogo = findViewById(R.id.txtLogo);
+        //txtLogo.setText("SDK page starts");
         //Glide.with(MainActivity.this.getApplicationContext()).load("https://picsum.photos/id/237/200/300").into(appCompatImageView);
 
     }
