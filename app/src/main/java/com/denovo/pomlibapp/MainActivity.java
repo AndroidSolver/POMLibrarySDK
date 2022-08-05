@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         appCompatImageView = findViewById(R.id.imgLogo);
-        Glide.with(this).load("https://picsum.photos/id/237/200/300").into(appCompatImageView);
+        Glide.with(MainActivity.this).load("https://picsum.photos/id/237/200/300").into(appCompatImageView);
 
     }
 }
