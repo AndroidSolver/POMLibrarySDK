@@ -3,7 +3,9 @@ package com.denovo.pomlibapp;
 import android.content.Context;
 import android.content.Intent;
 
-public class SdkService {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SdkService extends AppCompatActivity {
 
     private Context context;
 
